@@ -1,3 +1,5 @@
+/*patron bridge  o puente que divide en 2 jerarquias separadas (abrstraccion e implementacion)que pueden desarrollarse independientemente una de la otra*/
+
 import modelos.*;
 
 public class App {
