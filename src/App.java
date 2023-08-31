@@ -8,5 +8,7 @@ public class App {
         carro.fabricar();
         Vehiculo moto = new Moto(new EnsamblarChasis(), new EnsamblarCarroceria(), new Pintar());
         moto.fabricar();
+         Vehiculo bicicleta = new Bicicleta(new EnsamblarChasis(), new EnsamblarCarroceria(), new Pintar());
+        bicicleta.fabricar();
     }
 }
